@@ -1,0 +1,6 @@
+<!-- components/NewComponent/NewComponent.wxml -->
+<text>{{dataFromParent}}</text>
+<slot name="first"/>
+<button bindtap="triggerParent">Trigger Parent Method</button>
+<slot name="second"/>
+<selectable />

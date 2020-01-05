@@ -1,0 +1,9 @@
+<view>
+  <NewComponent dataFromParent="{{dynamicData}}" bindparentmethod="parentMethod">
+    <text slot="first">Inserted content</text>
+    <text slot="second">Inserted content 2</text>
+  </NewComponent>
+  
+  <input style="border: 1px solid black; padding: 5px; margin: 5px;" placeholder="change data for component" bindinput="onInputChange"/>
+  <navigator url="../other/other">Go to other page</navigator>
+</view>

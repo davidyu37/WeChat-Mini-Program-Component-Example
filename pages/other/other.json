@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "NewComponent": "../components/NewComponent/NewComponent",
+    "ChildComponent": "../../components/ChildComponent/ChildComponent"
+  }
+}

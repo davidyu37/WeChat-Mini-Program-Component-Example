@@ -1,0 +1,6 @@
+<!--pages/other/other.wxml-->
+<text>pages/other/other.wxml</text>
+<!-- Demonstrate Selectable -->
+<NewComponent dataFromParent="{{dynamicData}}" generic:selectable="ChildComponent"/>
+
+<navigator url="../index/index">Go</navigator>
